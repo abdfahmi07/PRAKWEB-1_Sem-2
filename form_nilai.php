@@ -18,7 +18,11 @@
                 <h3>Form Nilai Siswa</h3>
             </div>
             <div class="card-body p-5">
-                <form action="array_siswa.php" method="POST">
+                <form action="array_siswa.php" method="GET">
+                    <div class="form-group">
+                        <label><strong>NIM</strong></label>
+                        <input type="text" class="form-control" placeholder="Masukan NIM" name="nim">
+                    </div>
                     <div class="form-group">
                         <label><strong> Nama Lengkap</strong></label>
                         <input type="text" class="form-control" placeholder="Masukan Nama Lengkap" name="full_name">
@@ -27,8 +31,8 @@
                         <label> <strong> Mata Kuliah </strong> </label>
                         <select class="form-control" name="matkul">
                             <option value="DDP">Dasar-Dasar Pemrograman</option>
-                            <option value="BDI">Basis Data I</option>
-                            <option value="WEB1">Pemrograman Web</option>
+                            <option value="BD1">Basis Data I</option>
+                            <option value="WEB2">Pemrograman Web</option>
                         </select>
                     </div>
                     <div class="form-group ">

@@ -21,11 +21,12 @@
                 <form action="array_siswa.php" method="GET">
                     <div class="form-group">
                         <label><strong>NIM</strong></label>
-                        <input type="text" class="form-control" placeholder="Masukan NIM" name="nim">
+                        <input type="number" class="form-control" placeholder="Masukan NIM" name="nim" required>
                     </div>
                     <div class="form-group">
                         <label><strong> Nama Lengkap</strong></label>
-                        <input type="text" class="form-control" placeholder="Masukan Nama Lengkap" name="full_name">
+                        <input type="text" class="form-control" placeholder="Masukan Nama Lengkap" name="full_name"
+                            required>
                     </div>
                     <div class="form-group">
                         <label> <strong> Mata Kuliah </strong> </label>
@@ -37,18 +38,18 @@
                     </div>
                     <div class="form-group ">
                         <label><strong> Nilai UTS </strong></label>
-                        <input type="text" class="form-control col-md-4" placeholder="Masukan Nilai UTS"
-                            name="nilai_uts">
+                        <input type="number" class="form-control col-md-4" placeholder="Masukan Nilai UTS"
+                            name="nilai_uts" required>
                     </div>
                     <div class="form-group">
                         <label><strong> Nilai UAS </strong></label>
-                        <input type="text" class="form-control col-md-4" placeholder="Masukan Nilai UAS"
-                            name="nilai_uas">
+                        <input type="number" class="form-control col-md-4" placeholder="Masukan Nilai UAS"
+                            name="nilai_uas" required>
                     </div>
                     <div class="form-group">
                         <label><strong> Nilai Tugas/Praktikum </strong></label>
-                        <input type="text" class="form-control col-md-4" placeholder="Masukan Nilai Tugas"
-                            name="nilai_tugas">
+                        <input type="number" class="form-control col-md-4" placeholder="Masukan Nilai Tugas"
+                            name="nilai_tugas" required>
                     </div>
                     <input type="submit" class="btn btn-success mt-5 col-md-12" value="Simpan" name="proses" />
                 </form>
